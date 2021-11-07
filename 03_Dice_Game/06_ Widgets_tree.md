@@ -30,8 +30,6 @@
 
 
 
-23. Now let’s call the **setState()** function to rebuild the widgets tree, and see the changes after the value of the **randomNum1** variable was changed. Replace **play function** with
-
 ![img](https://lh3.googleusercontent.com/MdeiZ9FEnvCnbTNetkIxeLE_w3TdkwNwAhcA_RDIcKt-UYlS2BrUFHYEOajano3mSP50eUpm3XrvfeD1s2uYRDeJd4m_xcfyqQxQ0zLieAi_JUZSklIw1ByxvenpFmn7gZPdeCMB)
 
 
