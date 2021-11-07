@@ -1,4 +1,4 @@
-TextEditingController - taking value from the TextField
+# TextEditingController - taking value from the TextField
 
 
 
@@ -315,7 +315,7 @@ Our final result
 
 ![img](https://lh3.googleusercontent.com/7zH8xw73kbxm4TcTe3qk6AGbO69uym22-shz8VDUPfJwk_jugi9o56FrN_t3p6FqUd0XK7uyJraIzLQq_BCrfLuxzAUZUHMewDrtKKMkmnJoWrOVem0glONkSMqaJOxJNIpxBcZ6)
 
-<img src="https://lh6.googleusercontent.com/kxO15zZIltj3G-cjzTdXPR_W3Xn1PUP4acztNxnjnY5dSBvhIcAjSwhWR8OlN5xPM_OVP9NgHyIkZr-wGb1GBFNuCwK4Vlv-uwuONaOhvhn1vG3Ixzwk7LUkN4ZXsCLOodFGl3Tx" alt="img" style="zoom:33%;" />
+<img src=https://lh6.googleusercontent.com/kxO15zZIltj3G-cjzTdXPR_W3Xn1PUP4acztNxnjnY5dSBvhIcAjSwhWR8OlN5xPM_OVP9NgHyIkZr-wGb1GBFNuCwK4Vlv-uwuONaOhvhn1vG3Ixzwk7LUkN4ZXsCLOodFGl3Tx" alt="img"  />
 
 
 
