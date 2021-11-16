@@ -32,13 +32,13 @@ void play() {
 
 14. Open the **DEBUG CONSOLE** 
 
-![img](https://lh3.googleusercontent.com/yhicjcSkzIZR19XoRMkqwjWAQePwfgoqVqsKlsH9OcRPQif91llUuuzWIQD9OQtAC2OeF2emj-EFuh8ygs7vaH17-mw_i2A7ZOoRTdEQLfJu5p76c4o3uJX4pWS92fQBhlDEUAmA)
-
+<img src="https://lh3.googleusercontent.com/yhicjcSkzIZR19XoRMkqwjWAQePwfgoqVqsKlsH9OcRPQif91llUuuzWIQD9OQtAC2OeF2emj-EFuh8ygs7vaH17-mw_i2A7ZOoRTdEQLfJu5p76c4o3uJX4pWS92fQBhlDEUAmA" alt="img" width="650" />
 
 
 15. Now try clicking the play button more than once. You will see random numbers on the **DEBUG CONSOLE** because we used the print function inside the play to print the value of the **randomNum1** variable.
 
-    ![img](https://lh3.googleusercontent.com/rYKzypvMB4zvdl6HI-Z9qF5ohmzViE33E7PKMdMDXWLZUNCQc7NDxZQSoEDRPdcsqNN0drwxo0wZ4F7zURG8WyvphcZLSwDwwh4KCSE0Zqc-Y8BaIti7aCqUNbJMJHGbLlLh6bEA)
+<img src="https://lh3.googleusercontent.com/rYKzypvMB4zvdl6HI-Z9qF5ohmzViE33E7PKMdMDXWLZUNCQc7NDxZQSoEDRPdcsqNN0drwxo0wZ4F7zURG8WyvphcZLSwDwwh4KCSE0Zqc-Y8BaIti7aCqUNbJMJHGbLlLh6bEA" alt="img" width="650" />
+
 
 
 
