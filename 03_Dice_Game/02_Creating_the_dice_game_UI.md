@@ -24,7 +24,7 @@
 2. Here we used Image.asset to get images from the assets images folder by adding an image path.
 3. Specifying width and height for image widget.
 
-<img src="https://lh6.googleusercontent.com/i7-uanlfQ4yK8jU7GXZziw1EgKWFENkud8NvcVzq0slalbszj6P2uwarUQBRGZPMoclHbSxdfae775IJY2IxJX_PrclMXQUf3g0cZ5W3L4JYAqNt7B7ep8bomGuCjkbUGqD3cBv9" alt="img" style="zoom:33%;" />
+<img src="https://lh6.googleusercontent.com/i7-uanlfQ4yK8jU7GXZziw1EgKWFENkud8NvcVzq0slalbszj6P2uwarUQBRGZPMoclHbSxdfae775IJY2IxJX_PrclMXQUf3g0cZ5W3L4JYAqNt7B7ep8bomGuCjkbUGqD3cBv9" alt="img" width="450" />
 
 
 
@@ -62,13 +62,13 @@
 4. Adding play text inside the button by using the **Text** widget.
 5. Here, we used an anonymous function to add an event when the user clicks this play button.
 
-<img src="https://lh3.googleusercontent.com/Oe5Lormy00RPcfFBnljueIx49qCoJMmg4u8LxFi7iIiOlHe_qNEs8U0biT74qV1_FyzoiztkUqXMNLxerY8AyuzTcMuTwdaWznRrAa-KKfo5aV5ZBazsjaJVyCUQYklNHYhxFGVn" alt="img" style="zoom:33%;" />
+<img src="https://lh3.googleusercontent.com/Oe5Lormy00RPcfFBnljueIx49qCoJMmg4u8LxFi7iIiOlHe_qNEs8U0biT74qV1_FyzoiztkUqXMNLxerY8AyuzTcMuTwdaWznRrAa-KKfo5aV5ZBazsjaJVyCUQYklNHYhxFGVn" alt="img" width="450" />
 
 
 
 7. Now let’s change the layout for our widgets, we want to keep the dice image widget and the play button widget on the center of the screen. We will use the **mainAxisAlignment** named argument inside the **Column** widget, and we will use the **MainAxisAlignment.center** option to keep our widget on the center.
 
-<img src="https://lh3.googleusercontent.com/U7XaxuqkFFpb6HNPRrafV93KMGzNI_hi1TslgNfBOJAAy_xTUgHGsu5WmBfgvLshokOxiUOJw1btkV7Kt3-CEzq_YqYtaUzxLNgGCbH_G7xvJaYkZdxLJREuVKsys1EDybhixIL_" alt="img" style="zoom:33%;" />
+<img src="https://lh3.googleusercontent.com/U7XaxuqkFFpb6HNPRrafV93KMGzNI_hi1TslgNfBOJAAy_xTUgHGsu5WmBfgvLshokOxiUOJw1btkV7Kt3-CEzq_YqYtaUzxLNgGCbH_G7xvJaYkZdxLJREuVKsys1EDybhixIL_" alt="img" width="450" />
 
 
 
