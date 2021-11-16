@@ -169,8 +169,8 @@ Replace, `// TODO: #4 bmiStatus function` with
 > - Mac: **Command + .**
 >
 > - Windows: **Ctrl + .**
->
->   ![img](https://lh6.googleusercontent.com/8EGAOrVnkv5CjdacaGE4DVpHZ5Xi8wc2kxJgX2Jqh8FY9RjIujeyCtPNhd6C_A0hEYH2qlBXx3jz5jvZ1uGaTOW72LYq6yzygs7TnHVZy3CzsW18ynqnNKeyId5Ze1Ba5ga0WR6j)
+> <img src="https://lh6.googleusercontent.com/8EGAOrVnkv5CjdacaGE4DVpHZ5Xi8wc2kxJgX2Jqh8FY9RjIujeyCtPNhd6C_A0hEYH2qlBXx3jz5jvZ1uGaTOW72LYq6yzygs7TnHVZy3CzsW18ynqnNKeyId5Ze1Ba5ga0WR6j" alt="img" width="400" />
+>  
 >
 >   
 >
@@ -214,15 +214,15 @@ ElevatedButton.icon(
 
 23. Now click the restart button, and type some values inside the text fields, then click the calculate button.
 
-<img src="https://lh6.googleusercontent.com/drTTIZ6WgxSuH-vXIuAo4DlFk7BTJ7Ggb-f3FZss54K-NalYKOE_PVKkB0g6LBJEp-yQ5ihsygr5XG88CNuzJ7lgGwzn8_BLIiQeZzhYLBaHiBOwO7APfDwwq0W9YEZW2_-jrnpw" alt="img" style="zoom:33%;" />
+<img src="https://lh6.googleusercontent.com/drTTIZ6WgxSuH-vXIuAo4DlFk7BTJ7Ggb-f3FZss54K-NalYKOE_PVKkB0g6LBJEp-yQ5ihsygr5XG88CNuzJ7lgGwzn8_BLIiQeZzhYLBaHiBOwO7APfDwwq0W9YEZW2_-jrnpw" alt="img"  width="500" />
 
 24. Try to click the calculate button without writing any values inside the fields.
 
 You will get an error,
 
-![img](https://lh3.googleusercontent.com/HraHbxJofcPzoUPCnzvtm7R8bYafVcktFUOAfsLBPujvQMcYNhmqtkXoLOT4HjuzkUrwbjMrcBu-4pS1WxsRyJgMkFWWFwG7qzp2fz3gfjrwZyBYwoCxDAg9_5QlxuLPp0lghqNF)
+<img src="https://lh3.googleusercontent.com/HraHbxJofcPzoUPCnzvtm7R8bYafVcktFUOAfsLBPujvQMcYNhmqtkXoLOT4HjuzkUrwbjMrcBu-4pS1WxsRyJgMkFWWFwG7qzp2fz3gfjrwZyBYwoCxDAg9_5QlxuLPp0lghqNF" alt="img" width="500" />
 
-![img](https://lh3.googleusercontent.com/dQ4xt15uHLNgCUUINNo-kJg67P7aksCuO7zA0lF2kUBEejJHBeTUz_TcKyBqs4Ra0tLh5AOi4hsaNt7bEsXOJadef2dpwZ-RdFM2Y0cbFv-Ssbdd8c1FzrrPV4EuVuvyWl6dn2uW)
+<img src="https://lh3.googleusercontent.com/dQ4xt15uHLNgCUUINNo-kJg67P7aksCuO7zA0lF2kUBEejJHBeTUz_TcKyBqs4Ra0tLh5AOi4hsaNt7bEsXOJadef2dpwZ-RdFM2Y0cbFv-Ssbdd8c1FzrrPV4EuVuvyWl6dn2uW" alt="img" width="500" />
 
 
 
@@ -286,7 +286,7 @@ onPressed: () {
 
 28. Note that we will get an error on our app because the **result** variable is an empty string when we restart the app so to resolve this issue we should write the if condition before the Image widget. This condition checks if the result is empty or not, So it will not draw the Image widget on the screen if the result value is empty. 
 
-<img src="https://lh5.googleusercontent.com/4sGJJL_POOgdmeYCHXiCL_aCkRKheX0yskOlyR3VBYWrVR5OyAmwhnt7lWNyMD7m7-6OR7mVMKvC-dJ5dDlDIAmQ_1Kn8xPD7XUQ27-cc5RZxCy07ksaF-tkrO8rf2tqZI_gwWs-" alt="img" style="zoom:33%;" />
+<img src="https://lh5.googleusercontent.com/4sGJJL_POOgdmeYCHXiCL_aCkRKheX0yskOlyR3VBYWrVR5OyAmwhnt7lWNyMD7m7-6OR7mVMKvC-dJ5dDlDIAmQ_1Kn8xPD7XUQ27-cc5RZxCy07ksaF-tkrO8rf2tqZI_gwWs-" alt="img" width="500" />
 
 To solve this issue, we will write if the condition above the Container Image widget
 
@@ -313,9 +313,10 @@ To solve this issue, we will write if the condition above the Container Image wi
 
 Our final result 
 
-![img](https://lh3.googleusercontent.com/7zH8xw73kbxm4TcTe3qk6AGbO69uym22-shz8VDUPfJwk_jugi9o56FrN_t3p6FqUd0XK7uyJraIzLQq_BCrfLuxzAUZUHMewDrtKKMkmnJoWrOVem0glONkSMqaJOxJNIpxBcZ6)
+<img src="https://lh3.googleusercontent.com/7zH8xw73kbxm4TcTe3qk6AGbO69uym22-shz8VDUPfJwk_jugi9o56FrN_t3p6FqUd0XK7uyJraIzLQq_BCrfLuxzAUZUHMewDrtKKMkmnJoWrOVem0glONkSMqaJOxJNIpxBcZ6" alt="img" width="500" />
 
-<img src=https://lh6.googleusercontent.com/kxO15zZIltj3G-cjzTdXPR_W3Xn1PUP4acztNxnjnY5dSBvhIcAjSwhWR8OlN5xPM_OVP9NgHyIkZr-wGb1GBFNuCwK4Vlv-uwuONaOhvhn1vG3Ixzwk7LUkN4ZXsCLOodFGl3Tx" alt="img"  />
+
+<img src=https://lh6.googleusercontent.com/kxO15zZIltj3G-cjzTdXPR_W3Xn1PUP4acztNxnjnY5dSBvhIcAjSwhWR8OlN5xPM_OVP9NgHyIkZr-wGb1GBFNuCwK4Vlv-uwuONaOhvhn1vG3Ixzwk7LUkN4ZXsCLOodFGl3Tx" width="500"    />
 
 
 
