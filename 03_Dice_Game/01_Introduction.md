@@ -2,9 +2,9 @@
 
 We will learn more about:
 
-	- **Stateless widget**
-	- **Stateful widget**
-	- **State**
+- **Stateless widget**
+- **Stateful widget**
+- **State**
 
 
 
