@@ -28,15 +28,15 @@
           ),
 ```
 
-		1. We wrap our **TextField** with a Container widget to add some padding for our **TextField**.
-		1. We declared a **TextField** that the widget will help us to get some input from the user.
-		1. We used **keyboardType** named argument to customize the phone keyboard, and this named argument takes a **TextInputType** object, and we have a lot of types such as a keyboard for email, number, etc.. But in our case, we will use **TextInputType.number** since the height is just a number.
+1. We wrap our **TextField** with a Container widget to add some padding for our **TextField**.
+1. We declared a **TextField** that the widget will help us to get some input from the user.
+1. We used **keyboardType** named argument to customize the phone keyboard, and this named argument takes a **TextInputType** object, and we have a lot of types such as a keyboard for email, number, etc.. But in our case, we will use **TextInputType.number** since the height is just a number.
 		1. **decoration** named argument is used to add style for our textfield, and it takes an **InputDecoration()** object, so in our case, we add hint text that shows the user this field is for height.
 		1. We used the **border** named argument to add outline borders around the TextField widget.
 
 
 
-<img src="https://lh4.googleusercontent.com/IqAMi0YPcMLR40Rf3YMa3Wqw1Me5qre8kqDoxgCBdaVVBZcawtLFJK0qtQpvB9hiiHpyYVlM3tk11VEUoLqwdE-eew3BpR928Zrdh5yn5mcd4f4nvTPuFmYq6eDcommu8AEf0UhK" alt="img" style="zoom:33%;" />
+<img src="https://lh4.googleusercontent.com/IqAMi0YPcMLR40Rf3YMa3Wqw1Me5qre8kqDoxgCBdaVVBZcawtLFJK0qtQpvB9hiiHpyYVlM3tk11VEUoLqwdE-eew3BpR928Zrdh5yn5mcd4f4nvTPuFmYq6eDcommu8AEf0UhK" alt="img" width="400" />
 
 
 
@@ -59,13 +59,14 @@
 
    
 
-<img src="https://lh3.googleusercontent.com/SCprXCFro6__WInErJh-PCg89sWWRD6aMcN__E5RT2x0UjtizqIDLAW0YdpuElRtw9OqRLTm8MOf6lHiyBYVPDyEKJDthWxiDMEmhJH3mE9kWqT2fsPMWbBVh2ZiYGla_74jS_rM" alt="img" style="zoom:33%;" />
+<img src="https://lh3.googleusercontent.com/SCprXCFro6__WInErJh-PCg89sWWRD6aMcN__E5RT2x0UjtizqIDLAW0YdpuElRtw9OqRLTm8MOf6lHiyBYVPDyEKJDthWxiDMEmhJH3mE9kWqT2fsPMWbBVh2ZiYGla_74jS_rM" alt="img" width="400" />
 
 
 
 6. Now, we have already created two text field widgets that will help us to take the height and weight from the user. Now we will need a button widget that will help the user to calculate the BMI, so when the user clicks the button; it will calculate the BMI, and show the result.
 
-![img](https://lh6.googleusercontent.com/NXDIlsTSPCljcGZA0MIegbcxMrjQ2Fq8hx3DEdx2R9oVlcKypqtMIVvSTDvV_krwG7z2Vwy9f_vqmTDRDl7RiXClwYeMjX1QlsF6zvbFRgmxTqAx8fnQV8Sw3Wh6Ud8sXBvWDyuU)
+<img src="https://lh6.googleusercontent.com/NXDIlsTSPCljcGZA0MIegbcxMrjQ2Fq8hx3DEdx2R9oVlcKypqtMIVvSTDvV_krwG7z2Vwy9f_vqmTDRDl7RiXClwYeMjX1QlsF6zvbFRgmxTqAx8fnQV8Sw3Wh6Ud8sXBvWDyuU" alt="img" width="200" />
+
 
 
 
@@ -95,12 +96,12 @@
 
 
 
-  		1. We used **Container** to add some space between the button and the weight **TextField** widget.
-  		2. We wrapped the **ElevatedButton** with a **Container** widget to specify the width and height for our button. 
-  		3. We used **ElevatedButton.icon** to add a text button with an icon inside it.
-  		4. Add an icon inside the button, and we used the **Icon** widget to show sentiment Icon ^_^
-  		5. Add a **Text** widget inside the button, and its label is “Calculate”.
-  		6. We will use the **onPressed** function to calculate the BMI later.
+1. We used **Container** to add some space between the button and the weight **TextField** widget.
+2. We wrapped the **ElevatedButton** with a **Container** widget to specify the width and height for our button. 
+3. We used **ElevatedButton.icon** to add a text button with an icon inside it.
+4. Add an icon inside the button, and we used the **Icon** widget to show sentiment Icon ^_^
+5. Add a **Text** widget inside the button, and its label is “Calculate”.
+6. We will use the **onPressed** function to calculate the BMI later.
 
 
 
@@ -109,7 +110,10 @@
 
 
 
-
+</br>
+</br>
+</br>
+</br>
 
 
 7. Now, we also need a **Text** widget to show the result for the user. So, under the button widget add this widget.
