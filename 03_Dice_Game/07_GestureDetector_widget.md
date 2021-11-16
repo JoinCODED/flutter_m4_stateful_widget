@@ -33,4 +33,4 @@ To do that just wrap the **Container** widget that wrapped the dice image with *
 
 Now the user can play with the dice by clicking the play button or by clicking the dice
 
-<img src="https://lh5.googleusercontent.com/xUs0j-xHJhmIpXAe_OhlQGu0NqJzXprySV20smFU89o4xY46LAHcZi_A6y9IVyKX3FEkXCv4Yt0UiG6vVjqD7jVTFW0ZWp-mwx6Zs7Mxf4e3nFYik7VrBmcn_18ZbmN_3Ckruaw5" alt="img" style="zoom:33%;" />
+<img src="https://lh5.googleusercontent.com/xUs0j-xHJhmIpXAe_OhlQGu0NqJzXprySV20smFU89o4xY46LAHcZi_A6y9IVyKX3FEkXCv4Yt0UiG6vVjqD7jVTFW0ZWp-mwx6Zs7Mxf4e3nFYik7VrBmcn_18ZbmN_3Ckruaw5" alt="img" width="350" />
