@@ -8,25 +8,24 @@
 
 In our case, we created the **randomNum1** variable, and its type is integer.
 
-![img](https://lh6.googleusercontent.com/AaLsDlgcSDVGbbEYDM66CR4Uc1sZsJXicKhq6JR7qr5W-ixOEPjnawJo2tmPyMi0CwghhQf4-R1xdaAGUDQLW93G_iLilUU2AKFr4lPtTqCMYPaGNyOezYv4BebtpLQOdged8WNM)
+<img src="https://lh6.googleusercontent.com/AaLsDlgcSDVGbbEYDM66CR4Uc1sZsJXicKhq6JR7qr5W-ixOEPjnawJo2tmPyMi0CwghhQf4-R1xdaAGUDQLW93G_iLilUU2AKFr4lPtTqCMYPaGNyOezYv4BebtpLQOdged8WNM" alt="img" width="300" />
 
 
 
+<img src="https://lh5.googleusercontent.com/__PXMqOBl4ZfUFsMicRXaCVfAEUSwXv0ZWAaoh-GxmKLBnsq0LblnyfNtNhlOIXzMs0NSPgAmlRxiJGDaTDxM9L75TxMjnvYmqsq9DLzUthM-VlAbei5euTFDXH2aXlskUhOc6ug" alt="img" width="300" />
 
-
-![img](https://lh5.googleusercontent.com/__PXMqOBl4ZfUFsMicRXaCVfAEUSwXv0ZWAaoh-GxmKLBnsq0LblnyfNtNhlOIXzMs0NSPgAmlRxiJGDaTDxM9L75TxMjnvYmqsq9DLzUthM-VlAbei5euTFDXH2aXlskUhOc6ug)
 
 
 
 First, we should know that in our devices we have **RAM** which is a form of computer memory, to keep things easy, just imagine the **RAM** is a collection of boxes. 
 
-![img](https://lh5.googleusercontent.com/i366W_K7BL3ZAS08IzUXBTdap-bJegcukOMWmF5a4sw8UopFFrdKBnk19sN15PAKBSpTY9hYgoGFL9_S-yS7X3equtZDu-w35ZqJqDQJNkF8e0JBSQe_VAkIRJGapozRxhSmgS5S)
+<img src="https://lh5.googleusercontent.com/i366W_K7BL3ZAS08IzUXBTdap-bJegcukOMWmF5a4sw8UopFFrdKBnk19sN15PAKBSpTY9hYgoGFL9_S-yS7X3equtZDu-w35ZqJqDQJNkF8e0JBSQe_VAkIRJGapozRxhSmgS5S" alt="img" width="300" />
 
 
 
 When you create a new variable you allocate one box inside the memory. For example, in our case we created the **randomNum1** variable and its type is int which means we tell flutter to allocate one box on the memory, and we named this box **randomNum1**, and its type is an integer. Also, inside the box, we put the value of **randomNum1**.
 
-![img](https://lh3.googleusercontent.com/zrD-fRwCbGBjQJflzdwJGF3GuyqmO5ZtaksVWVr-OsiHU-dtlMRfUbAdtWSjk3xBxrez9udMqX7n3rBcFTa-gNCBcQtv0EYoYW1ljLG5jVq9DfxzXPlytTreGmKRaRDRiM1taafK)
+<img src="https://lh3.googleusercontent.com/zrD-fRwCbGBjQJflzdwJGF3GuyqmO5ZtaksVWVr-OsiHU-dtlMRfUbAdtWSjk3xBxrez9udMqX7n3rBcFTa-gNCBcQtv0EYoYW1ljLG5jVq9DfxzXPlytTreGmKRaRDRiM1taafK" alt="img" width="450" />
 
 
 
@@ -50,8 +49,8 @@ Change **HomePage** to **Stateful** widget
 >
 > - Mac: **Command + .**
 > - Windows: **Ctrl + .**
->
-> ![img](https://lh6.googleusercontent.com/8EGAOrVnkv5CjdacaGE4DVpHZ5Xi8wc2kxJgX2Jqh8FY9RjIujeyCtPNhd6C_A0hEYH2qlBXx3jz5jvZ1uGaTOW72LYq6yzygs7TnHVZy3CzsW18ynqnNKeyId5Ze1Ba5ga0WR6j)
+> <img src="https://lh6.googleusercontent.com/8EGAOrVnkv5CjdacaGE4DVpHZ5Xi8wc2kxJgX2Jqh8FY9RjIujeyCtPNhd6C_A0hEYH2qlBXx3jz5jvZ1uGaTOW72LYq6yzygs7TnHVZy3CzsW18ynqnNKeyId5Ze1Ba5ga0WR6j" alt="img" width="650" />
+> 
 >
 > Then click, Convert to **StatefulWidget**
 
