@@ -1,4 +1,3 @@
-# Input fields BMI calculator
 
 In this example, we will build a BMI calculator. 
 

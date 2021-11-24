@@ -1,4 +1,3 @@
-# Use the variables inside the widget
 
 
 

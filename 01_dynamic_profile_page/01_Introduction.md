@@ -1,4 +1,3 @@
-# Dynamic profile page
 
 ​	In this lesson, we will learn how to create variables, and use them inside widgets.
 

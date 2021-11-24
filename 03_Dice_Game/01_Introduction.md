@@ -1,4 +1,3 @@
-# Dice Game
 
 We will learn more about:
 

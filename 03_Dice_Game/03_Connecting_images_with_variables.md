@@ -1,4 +1,3 @@
-# Connecting images with variables (path)
 
 
 
