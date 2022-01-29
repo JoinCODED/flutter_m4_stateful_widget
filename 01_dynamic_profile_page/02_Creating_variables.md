@@ -1,6 +1,3 @@
-
-
-
 4. Under **HomeScreen** class we will create the **age** variable, and its type will be a **double**
 
 ```dart
@@ -19,8 +16,6 @@ double age = 18;
 ```
 
 Here, we declared a double variable, with 18 initial value
-
-
 
 5. Under the **Hobbies** widgets, we will create a new widget that is responsible for showing the age.
 
@@ -41,8 +36,6 @@ Container(
 
 ```
 
-
-
 6. Type this code under the **Container** widget.
 
 ```dart
@@ -60,11 +53,4 @@ Container(
             ),
 ```
 
-Here, we created a **Text** widget, and we wrapped it with a **Container** widget to add padding and alignment for the Age Text widget. 
-
-
-
-
-
-
-
+Here, we created a **Text** widget, and we wrapped it with a **Container** widget to add padding and alignment for the Age Text widget.
