@@ -1,4 +1,4 @@
-7. To use the value of age inside **Text** widget, we will type the name of our variable inside the **Text** widget.
+4. Place the **age** variable inside the **Text** widget.
 
 ```dart
 Text(
@@ -11,47 +11,47 @@ Text(
   ),
 ```
 
-> **Note:** You’ll see red squiggles under the age variable inside the Text widget, and if we hover the mouse under the red squiggles, the VS code will tell us that “The argument type 'double' can't be assigned to the parameter type 'String”. So, this error occurs because we pass a double variable inside the Text widget, and the **Text** widget needs a String type.
+> **Note:** You will see red squiggles under the age variable inside the Text widget, and if you hover over it, the VS code will tell you that “The argument type 'double' can't be assigned to the parameter type 'String' ”. This error occurs because we passed a double variable to the Text widget, and the **Text** widget needs a String type.
 
-8. To solve this issue we have two ways.
+To solve this issue, we have two options:
 
-   1. First one, use the **toString()** method.
-
-      ```dart
-      Text(
-                      age.toString(), // <- here
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    )
-      ```
-
-   2. Second one (Recommended), use the **$** dollar sign.
-
-      ```dart
-      Text(
-                      '$age',  // <- Here
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    )
-      ```
-
-9. With the second approach, we can style our **Text widget** more easily, we will add Age tag before the age value.
+- First option: use the **toString()** method.
 
 ```dart
 Text(
-                'Age: $age',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
-              )
+      age.toString(), // <- here
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+      ),
+    )
+```
+
+- Second option (Recommended): use the dollar sign **$**.
+
+```dart
+Text(
+      '$age',  // <- Here
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+      ),
+    )
+```
+
+With the second approach, we can manipulate our **Text widget** more easily, and we can add an Age text before the age value.
+
+```dart
+Text(
+      'Age: $age',
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+      ),
+    )
 ```
 
 **Final result**:
