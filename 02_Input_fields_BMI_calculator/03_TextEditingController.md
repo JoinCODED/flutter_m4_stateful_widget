@@ -245,6 +245,8 @@ if (result != '')  // here
   )
 ```
 
+<!-- The column should be wrapped with a SingleChildScrollView, otherwise the result text disappears -->
+
 Our final result:
 
 ![124383224-fc0f3f80-dcd3-11eb-9bf1-2ec513b90757](https://user-images.githubusercontent.com/24327781/142021150-c9fcaded-27b5-49c6-92ca-b427a4774f02.gif)

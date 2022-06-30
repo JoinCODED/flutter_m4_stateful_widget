@@ -1,6 +1,6 @@
 1. To calculate the BMI, you need the user to fill two inputs: height and weight. To do that, use a `TextField` widget which helps you to get inputs from the user.
    >
-2. Replace, `// TODO: #1 Add textfield widget` with the code below:
+2. Replace `// TODO: #1 Add textfield widget` with the code below:
 
 ```dart
 Container(
