@@ -23,7 +23,7 @@ double age = 18;
 
 We declared a double variable, and set it to an initial value of 18.
 
-3. Below the **Hobbies**'s Text Container widget, create a new `Text` widget responsible for showing the age.
+3. Below the **Hobbies** Text Container widget, create a new `Text` widget responsible for showing the age.
 
 ```dart
 Container(

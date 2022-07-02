@@ -11,11 +11,11 @@ Text(
   ),
 ```
 
-> **Note:** You will see red squiggles under the age variable inside the Text widget, and if you hover over it, the VS code will tell you that “The argument type 'double' can't be assigned to the parameter type 'String' ”. This error occurs because we passed a double variable to the Text widget, and the **Text** widget needs a String type.
+> **Note:** You will see red squiggles under the age variable inside the Text widget, and if you hover over it, VS Code will tell you that “The argument type 'double' can't be assigned to the parameter type 'String' ”. This error occurs because we passed a double variable to the Text widget, and the **Text** widget needs a String type.
 
 To solve this issue, we have two options:
 
-- First option: use the **toString()** method.
+a. Use the **toString()** method.
 
 ```dart
 Text(
@@ -28,7 +28,7 @@ Text(
     )
 ```
 
-- Second option (Recommended): use the dollar sign **$**.
+b. Use the dollar sign **$** (Recommended).
 
 ```dart
 Text(

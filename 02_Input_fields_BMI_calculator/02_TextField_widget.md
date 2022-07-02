@@ -1,6 +1,6 @@
-1. To calculate the BMI, you need the user to fill two inputs: height and weight. To do that, use a `TextField` widget which helps you to get inputs from the user.
-   >
-2. Replace `// TODO: #1 Add textfield widget` with the code below:
+To calculate the BMI, you need the user to fill two inputs: height and weight. To do that, use a `TextField` widget to help you get inputs from the user.
+
+3. Replace `// TODO: #1 Add textfield widget` with the code below to add a `TextField` widget for the height:
 
 ```dart
 Container(
@@ -24,14 +24,14 @@ Container(
 > > a. We wrapped our **TextField** in a `Container` widget to add some padding to the field.
 > > b. We declared a **TextField** to get an input from the user.
 > > c. We used the **keyboardType** named argument to customize the phone keyboard. This named argument takes a **TextInputType** object, which has a lot of types inside such as a keyboard for email, number, etc. However, in our case, we used **TextInputType.number** since height is just a number.
-> > d. The **decoration** named argument is used to add style to the **TextField**. And this named argument takes an **InputDecoration()** object, which helped us to add:
+> > d. The **decoration** named argument is used to add style to the **TextField**. This named argument takes an **InputDecoration()** object, which helped us add:
 > >
 > > - A **hintText** that displays the label of the field to the user.
 > > - A **border** named argument to add outline borders around the TextField widget.
 
 ![screenshot](https://lh4.googleusercontent.com/IqAMi0YPcMLR40Rf3YMa3Wqw1Me5qre8kqDoxgCBdaVVBZcawtLFJK0qtQpvB9hiiHpyYVlM3tk11VEUoLqwdE-eew3BpR928Zrdh5yn5mcd4f4nvTPuFmYq6eDcommu8AEf0UhK)
 
-3. Duplicate the whole **`TextField`**'s Container of the height to add another **`TextField`** widget for the weight, paste it under the height widget directly, change the **hintText** from “Height (m)” to “Weight (kg)”, and change the padding value to `EdgeInsets.only(left: 30, right: 30, top: 40)`:
+4. Duplicate the whole **`TextField`**'s Container of the height to add another **`TextField`** widget for the weight, paste it under the height widget directly, change the **hintText** from “Height (m)” to “Weight (kg)”, and change the padding value to `EdgeInsets.only(left: 30, right: 30, top: 40)`:
    > >
    ```dart
     Container(
@@ -48,7 +48,7 @@ Container(
 
 ![screenshot](https://lh3.googleusercontent.com/SCprXCFro6__WInErJh-PCg89sWWRD6aMcN__E5RT2x0UjtizqIDLAW0YdpuElRtw9OqRLTm8MOf6lHiyBYVPDyEKJDthWxiDMEmhJH3mE9kWqT2fsPMWbBVh2ZiYGla_74jS_rM)
 
-4. Add an `ElevatedButton` widget which helps the user to calculate the BMI, and shows the result when clicked.
+5. Add an `ElevatedButton` widget which helps the user to calculate the BMI and show the result when clicked.
 
 ![screenshot](https://lh6.googleusercontent.com/NXDIlsTSPCljcGZA0MIegbcxMrjQ2Fq8hx3DEdx2R9oVlcKypqtMIVvSTDvV_krwG7z2Vwy9f_vqmTDRDl7RiXClwYeMjX1QlsF6zvbFRgmxTqAx8fnQV8Sw3Wh6Ud8sXBvWDyuU)
 

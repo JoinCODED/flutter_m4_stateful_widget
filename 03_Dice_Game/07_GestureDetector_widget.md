@@ -1,6 +1,6 @@
 When a user wants to play with the dice, he/she needs to trigger the play function. Let’s add another functionality that randomizes the dice when the user clicks the dice image :)
 
-20. Wrap the **Container** of the dice image widget with the **GestureDetector** widget.
+17. Wrap the **Container** of the dice image widget with the **GestureDetector** widget.
 
 ```dart
   // a

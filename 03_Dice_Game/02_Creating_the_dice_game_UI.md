@@ -1,4 +1,4 @@
-5.  Replace `// TODO: #1 add dice image` with the code below to display the dice image on the screen.
+2.  Replace `// TODO: #1 add dice image` with the code below to display the dice image on the screen.
 
 ```dart
 		//a
@@ -22,7 +22,7 @@ c. We added width and height to the image widget.
 
 ![screenshot](https://lh6.googleusercontent.com/i7-uanlfQ4yK8jU7GXZziw1EgKWFENkud8NvcVzq0slalbszj6P2uwarUQBRGZPMoclHbSxdfae775IJY2IxJX_PrclMXQUf3g0cZ5W3L4JYAqNt7B7ep8bomGuCjkbUGqD3cBv9)
 
-6. Replace ` // TODO: #2 add play button` with the code below to add the play button.
+3. Replace ` // TODO: #2 add play button` with the code below to add the play button.
 
 ```dart
       // a
@@ -58,11 +58,11 @@ e. We used an anonymous function to add an event when the user clicks the play b
 
 ![screenshot](https://lh3.googleusercontent.com/Oe5Lormy00RPcfFBnljueIx49qCoJMmg4u8LxFi7iIiOlHe_qNEs8U0biT74qV1_FyzoiztkUqXMNLxerY8AyuzTcMuTwdaWznRrAa-KKfo5aV5ZBazsjaJVyCUQYklNHYhxFGVn)
 
-7. Use the **mainAxisAlignment** named argument inside the **Column** widget and pass to it **MainAxisAlignment.center** to Change the layout of the widgets to keep the dice image and play button widgets on the center of the screen.
+4. Use the **mainAxisAlignment** named argument inside the **Column** widget and pass to it **MainAxisAlignment.center** to Change the layout of the widgets to keep the dice image and play button widgets on the center of the screen.
 
 ![screenshot](https://lh3.googleusercontent.com/U7XaxuqkFFpb6HNPRrafV93KMGzNI_hi1TslgNfBOJAAy_xTUgHGsu5WmBfgvLshokOxiUOJw1btkV7Kt3-CEzq_YqYtaUzxLNgGCbH_G7xvJaYkZdxLJREuVKsys1EDybhixIL_)
 
-8. Use the `Container` widget inside the `Column`'s `children` between the Dice image and the play button widgets to add some space between them. Pass height of 100 to the container widget.
+5. Use the `Container` widget inside the `Column`'s `children` between the Dice image and the play button widgets to add some space between them. Pass height of 100 to the container widget.
 
    ```dart
    Container(height: 100),

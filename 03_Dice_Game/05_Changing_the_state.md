@@ -20,7 +20,7 @@ The reason that we do not see the changes on the screen is because we just chang
 
 To use the **setState** function, you need to change the **Stateless** widget to **Stateful** widget because the **Stateless** widget does not have the ability to change its state, but the **Stateful** widget does.
 
-17. Convert **HomePage** to **Stateful** widget
+14. Convert **HomePage** to **Stateful** widget
 
 > To do this very quickly, you can use the shortcut that is inside VS Code. Hover over **HomePage StatelessWidget**, and click:
 >
