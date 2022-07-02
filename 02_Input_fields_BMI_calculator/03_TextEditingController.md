@@ -1,15 +1,15 @@
-1. We already declared the two **TextField** widgets, but to use them we will need to declare a controller.
+6. After declaring the two **TextField** widgets, we need to use them somehow, and to do that we have to declare a controller.
 
-Replace ` // TODO: #2 Add textEditingController` with
+Replace ` // TODO: #2 Add textEditingController` with the code below:
 
 ```dart
   final heightController = TextEditingController();
   final weightController = TextEditingController();
 ```
 
-Here we created two **TextEditingController** variables, one for the height textfield, and the other for the weight textfield.
+Here, we created two **TextEditingController** variables: one for the height `TextField`, and the other for the weight `TextField`.
 
-2. After we created the two **TextEditingController**, we need to link them with our text fields, So, to link them, we will use **controller** named argument, and we will pass the name of our controller variable, for example, in the height textfield, we will pass **heightController**.
+7. Now, you need to link them with the text fields using **controller** named argument, then pass the name of the controller variable to it:
 
 ```dart
 TextField(
@@ -22,7 +22,7 @@ TextField(
 ),
 ```
 
-3. We will link the **weightController** with the other **weight** **TextField** widget.
+8. Same thing goes with **weightController**, pass it to weight **TextField**'s controller.
 
 ```dart
 TextField(
@@ -35,34 +35,34 @@ TextField(
 )
 ```
 
-4. Also, we will need to declare a new variable that will store the result, and show it inside the **Text** widget that has the empty value.
+9. Declare a new variable to store the result in.
 
-So, replace ` // TODO: #3 Add result variable` with
+Replace ` // TODO: #3 Add result variable` with the code below:
 
 ```dart
  String result = '';
 ```
 
-> Here, we declared a new String variable; the name of the variable is **result**, and it has an empty value; later we will store the result inside it when the user presses the calculate button.
+> Here, we declared a new String variable; The name of the variable is **result**, and it has an empty value; later, we will store the result inside it when the user presses the calculate button.
 
-5. We will pass the result value inside the **Text** widget that has the empty value.
+10. Pass the result variable to the **Text** widget that has the empty value.
 
 ```dart
 Text(
-            result, // <- Here
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.amber[700],
-              fontSize: 40,
-            ),
-          )
+      result, // <- Here
+      style: TextStyle(
+        fontWeight: FontWeight.bold,
+        color: Colors.amber[700],
+        fontSize: 40,
+      ),
+    )
 ```
 
-6. Now, let's add some logic for our BMI calculator, so when the user clicks the button it will calculate the BMI, and show the result inside the **Text** widget.
+11. Now, let's add some logic to the BMI calculator to make the button calculate the BMI and show the result inside the **Text** widget when the user clicks it.
 
-Inside the **onPressed** named argument inside the **ElevatedButton**, we will declare two variables one for the **height** and the other for the **weight**, and to get the input from the TextField widget we will use the **text** object inside the **TextEditingController**.
+Inside the **onPressed** named argument in the **ElevatedButton**, declare two variables: one for the **height** and the other for the **weight**. To get the input from the TextField widget, use the **text** object inside the **TextEditingController**.
 
-So, now we will type codes that take the height from the heightController, and since the **heightController.text** is **String** type we need to parse it to **double** type. To do this we will use the **double.parse()** method, and we will pass the **heightController.text** string inside it.
+Save the result of the height that comes from the heightController. Since the **heightController.text** is a **String** type, we need to convert it to **double** type. To do this, use the **double.parse()** method, and wrap the **heightController.text** with it.
 
 ```dart
 ElevatedButton.icon(
@@ -82,51 +82,51 @@ ElevatedButton.icon(
    )
 ```
 
-7. Also, we will need to repeat this step for the weight.
+12. Repeat the same step for the weight.
 
-   ```dart
-   var weight = double.parse(weightController.text);
-   ```
+```dart
+var weight = double.parse(weightController.text);
+```
 
-   > Note: this time we use **weightController** not the **heightController**
+> Note: this time we use **weightController** not the **heightController**
 
-8. To calculate the bmi we will use this formula,
+13. Use the following formula to calculate the BMI.
 
-   > bmi = weight / (height \* height)
+> bmi = weight / (height \* height)
 
-Also, we will store it inside the **bmi** variable.
+Then, store it inside the **bmi** variable.
 
-8. Since our result variable is String, we will need to add conditions for the bmi status, so we will create a function that takes the **bmi** variable, and convert it to a status such as Fat, Normal, Thin.
+14. Create a function that takes the **bmi** variable, and converts it to a status such as Underweight, Normal, or Overweight based on some conditions.
 
 Replace, `// TODO: #4 bmiStatus function` with
 
 ```dart
   String bmiStatus(double bmi) {
     if (bmi <= 20) {
-      return 'Thin';
+      return 'Underweight';
     } else if (bmi < 25 && bmi > 20) {
       return 'Normal';
     } else if (bmi >= 25) {
-      return 'Fat';
+      return 'Overweight';
     } else {
       return '';
     }
   }
 ```
 
-> Here we created a function that takes one double argument, and return the String, So, in our case, it will take the bmi value, and check if it is less than or equal to 20, if so it will return ‘Thin’ String, or if it between 25 and 20, it will return ‘Normal’ String, or if the bmi bigger than 25 it will return ‘Fat’.
+> Here, we created a `bmiStatus` function that takes one double argument, and returns a String. In our case, it will take the bmi value. If it is less than or equal to 20, it will return ‘Underweight’ String, if it is between 25 and 20, it will return ‘Normal’ String, otherwise it will return ‘Overweight’ String.
 
-9. After we create **bmiStatus**, we will use it inside the onPressed function, so we will reassign the return value inside the result variable.
+15. Call the `bmiStatus` function inside the **onPressed** function, and reassign the return value to the result variable.
 
-   ```dart
-   result = bmiStatus(bmi);
-   ```
+```dart
+result = bmiStatus(bmi);
+```
 
-10. Now, save the main.dart, and try to click the button, see if you can see the result ^\_^.
+16. Save the `main.dart` file, try to click the button, and check if you can see the result.
 
-11. You didn’t see any change on the screen right ^\_^, because we need to tell Flutter to rebuild the widget tree again. So, to do this we will need to convert the **HomePage StatelessWidget** to **HomePage statefulwidget**.
+17. You didn’t see any changes on the screen, right? That is because we need to tell Flutter to rebuild the widget tree. To do that, we need to convert the **HomePage StatelessWidget** to **HomePage statefulWidget**.
 
-> To do this very quickly we can use the shortcut that is inside the VS Code. Hover **HomePage StatelessWidget**, and click
+> In order to convert the stateless widget to stateful very quickly, you can use the shortcut inside the VS Code: Hover over **HomePage StatelessWidget**, and press
 >
 > - Mac: **Command + .**
 >
@@ -134,13 +134,13 @@ Replace, `// TODO: #4 bmiStatus function` with
 >
 > ![screenshot](https://lh6.googleusercontent.com/8EGAOrVnkv5CjdacaGE4DVpHZ5Xi8wc2kxJgX2Jqh8FY9RjIujeyCtPNhd6C_A0hEYH2qlBXx3jz5jvZ1uGaTOW72LYq6yzygs7TnHVZy3CzsW18ynqnNKeyId5Ze1Ba5ga0WR6j)
 >
-> Then click, Convert to **StatefulWidget**
+> Then, click Convert to **StatefulWidget**
 
-12. Later we will know more about the difference between Stateless and Stateful widgets. Right now, just know that **StatefulWidget** can change its state, so it can rebuild its widgets tree inside the build method.
+18. Later on, we will dig deeper into the difference between Stateless and Stateful widgets. Right now, just know that **StatefulWidget** can change its state, and rebuild its widgets tree inside the build method.
 
-13. After we convert the HomePage to **StatefulWidget**, we will use **setState()**, which comes with the **StatefulWidget**.
+19. Use the **setState()** method, which comes with the **StatefulWidget**.
 
-> so when we type **setState()**, the HomePage widget will rebuild (repaint) the build method again, but this time it will use the new value inside the **result** variable.
+> When we type **setState()**, the HomePage widget will rebuild (repaint) the build method, but this time it will use the new stored value of the **result** variable.
 
 ```dart
 ElevatedButton.icon(
@@ -164,19 +164,19 @@ ElevatedButton.icon(
   ),
 ```
 
-14. Now click the restart button, and type some values inside the text fields, then click the calculate button.
+20. Click the restart button, and type some values inside the text fields, then click the calculate button.
 
 ![screenshot](https://lh6.googleusercontent.com/drTTIZ6WgxSuH-vXIuAo4DlFk7BTJ7Ggb-f3FZss54K-NalYKOE_PVKkB0g6LBJEp-yQ5ihsygr5XG88CNuzJ7lgGwzn8_BLIiQeZzhYLBaHiBOwO7APfDwwq0W9YEZW2_-jrnpw)
 
-15. Try to click the calculate button without writing any values inside the fields.
+21. Try to click the calculate button without writing any values inside the fields.
 
-You will get an error,
+You will get an error message 🙂.
 
 ![screenshot](https://lh3.googleusercontent.com/HraHbxJofcPzoUPCnzvtm7R8bYafVcktFUOAfsLBPujvQMcYNhmqtkXoLOT4HjuzkUrwbjMrcBu-4pS1WxsRyJgMkFWWFwG7qzp2fz3gfjrwZyBYwoCxDAg9_5QlxuLPp0lghqNF)
 
 ![screenshot](https://lh3.googleusercontent.com/dQ4xt15uHLNgCUUINNo-kJg67P7aksCuO7zA0lF2kUBEejJHBeTUz_TcKyBqs4Ra0tLh5AOi4hsaNt7bEsXOJadef2dpwZ-RdFM2Y0cbFv-Ssbdd8c1FzrrPV4EuVuvyWl6dn2uW)
 
-To solve this issue, we will use the if condition, and check if the text field controllers are empty or not.
+To solve this issue, we will use the `if condition`, and check if the text field controllers are empty.
 
 ```dart
 onPressed: () {
@@ -195,41 +195,43 @@ onPressed: () {
 }
 ```
 
-> Here our logic for the bmi calculator will not work if the heightController.text and weightController.text are empty. So, with this solution, we protected our app from error ^\_^.
+> Here, the logic for the bmi calculator will not work if the `heightController.text` and `weightController.text` are empty. With this solution, we protected our app from crashing down.
 
-16. Now, we will add an image widget that depends on the bmi status.
+22. Add an image widget that depends on the bmi status.
 
-17. Restart the app.
+23. Restart the app.
 
-18. Add this widget above the **Text** result widget.
+24. Add the following widget above the **Text** result widget.
 
     ```dart
     Container(
-                // 2
-                padding: EdgeInsets.all(40),
-                //3
-                child: Image.asset(
-                 // 3
-                  'assets/$result.png',
-     			// 4
-                  height: 230,
-                  width: 230,
-                ),
-              ),
+            // a
+            padding: EdgeInsets.all(40),
+            //b
+            child: Image.asset(
+              // c
+              'assets/$result.png',
+              // d
+              height: 230,
+              width: 230,
+            ),
+          ),
     ```
 
-        	1. We wrapped the Image widget with a **Container** to add padding for our Image widget.
-        	2. Here, we used the **Image.asset** widget to show the images that are inside the **assets** folder.
-        	3. Here, we typed the path for our image, but we used the **$result** variable to change the image depending on the result variable.
-        	4. Specify the height and width of our image widget.
+    > > a. We wrapped the Image widget with a `Container` to add padding for our Image widget.
+    > > b. We used the `Image.asset` widget to show the images that are inside the `assets` folder.
+    > > c. We typed the path for our image, but we used the `$result` variable to change the image depending on the result variable.
+    > > d. We specified the height and width of our image widget.
 
-19. Note that we will get an error on our app because the **result** variable is an empty string when we restart the app so to resolve this issue we should write the if condition before the Image widget. This condition checks if the result is empty or not, So it will not draw the Image widget on the screen if the result value is empty.
+    > >
+
+25. Note that we will get an error because the **result** variable is empty when we restart the app. To resolve this issue, we should add the `if condition` before the Image widget. This condition checks if the result is empty, if so, the Image widget will not show up on the screen.
 
 ![screenshot](https://lh5.googleusercontent.com/4sGJJL_POOgdmeYCHXiCL_aCkRKheX0yskOlyR3VBYWrVR5OyAmwhnt7lWNyMD7m7-6OR7mVMKvC-dJ5dDlDIAmQ_1Kn8xPD7XUQ27-cc5RZxCy07ksaF-tkrO8rf2tqZI_gwWs-)
 
-To solve this issue, we will write if the condition above the Container Image widget
+To fix this issue, we will add the `if condition` above the Container Image widget.
 
-> **Very important:** when we use the if condition inside the widgets tree, we can not use **if else** and curly brackets, so we just write if( ), and inside the parentheses,Github we check if the result value is not empty, if so it will draw the image. If the result value is empty it will ignore drawing this **Container Image.asset** widget.
+> **Very important:** when we use the `if condition` inside the widgets tree, we cannot use **if else** and curly brackets, so we just write `if( )`, and inside the parentheses, we check if the result value is not empty. If so, it will draw the image. Otherwise, it will not draw the **Container Image.asset** widget.
 
 ```dart
 if (result != '')  // here
@@ -243,8 +245,6 @@ if (result != '')  // here
   )
 ```
 
-Our final result
-
-![screenshot](https://lh3.googleusercontent.com/7zH8xw73kbxm4TcTe3qk6AGbO69uym22-shz8VDUPfJwk_jugi9o56FrN_t3p6FqUd0XK7uyJraIzLQq_BCrfLuxzAUZUHMewDrtKKMkmnJoWrOVem0glONkSMqaJOxJNIpxBcZ6)
+Our final result:
 
 ![124383224-fc0f3f80-dcd3-11eb-9bf1-2ec513b90757](https://user-images.githubusercontent.com/24327781/142021150-c9fcaded-27b5-49c6-92ca-b427a4774f02.gif)
